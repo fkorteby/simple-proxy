@@ -27,14 +27,13 @@ nssm set Simple-Proxy AppParameters /c "%cd%\run-proxy.bat"
 nssm set Simple-Proxy AppStderr "%cd%\proxy-console.err"
 nssm set Simple-Proxy AppStdout "%cd%\proxy-console.out"
 ```
-Note : This service will create two log files, one will contains the logging event and the second will contains errors.
+*Note : This service will create two log files, one will contains the logging event and the second will contains errors.*
 
 The file **run-proxy.bat** will be something like this :
 ```
 java -jar simple-proxy.jar <local-port>:<time-out> <host1>:<remote-port1> <host2>:<remote-port2> ...
 ```
-
-Note : All files must be in the same directory.
+*Note : All files must be in the same directory.*
 
 ## Download :
 
