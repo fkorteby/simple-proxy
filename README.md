@@ -38,3 +38,6 @@ java -jar simple-proxy.jar <local-port>:<time-out> <host1>:<remote-port1> <host2
 ## Download :
 - [simple-proxy.jar (all platforms)](https://raw.githubusercontent.com/fkorteby/simple-proxy/master/simple-proxy.jar)
 - [simple-proxy-dist.zip (windows)](https://raw.githubusercontent.com/fkorteby/simple-proxy/master/simple-proxy-dist.zip)
+
+## More :
+[See also :](http://www.jcgonzalez.com/java-simple-proxy-socket-server-examples)
