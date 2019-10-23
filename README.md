@@ -40,4 +40,4 @@ java -jar simple-proxy.jar <local-port>:<time-out> <host1>:<remote-port1> <host2
 - [simple-proxy-dist.zip (windows)](https://raw.githubusercontent.com/fkorteby/simple-proxy/master/simple-proxy-dist.zip)
 
 ## See also :
-[Java Create a Simple Proxy Server with Sockets Examples](http://www.jcgonzalez.com/java-simple-proxy-socket-server-examples)
+> [Java Create a Simple Proxy Server with Sockets Examples](http://www.jcgonzalez.com/java-simple-proxy-socket-server-examples)
