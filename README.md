@@ -1,13 +1,13 @@
-# Simple Proxy supporting fail-overs scenarios :
+# Simple Proxy supporting failover scenarios :
 This is a forwarding Proxy using the basic Java socket and operating with multi threaded technics.
 
-I created this proxy to handle fail-overs scenarios in clustered database environment. But it can be used in any failed-over context.
+I created this proxy to handle failover scenarios in clustered database environment. But it can be used in any failover context.
 
 Some key points about simple proxy :
 
 - It's **fast** : working under TCP/IP level.
 - It's **simple** : can be customized with your own logic.
-- It's **strong** : supporting fail-over in clustered environment.
+- It's **strong** : supporting failover in clustered environment.
 - It's **multi-platforms** : needs just installed JRE to work.
 
 ## Usage :
