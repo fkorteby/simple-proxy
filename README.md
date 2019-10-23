@@ -13,7 +13,9 @@ Some key points about simple proxy :
 ## Usage :
 
 ### Normal start command :
-```java -jar simple-proxy.jar <local-port>:<time-out> <host1>:<remote-port1> <host2>:<remote-port2> ...```
+```
+java -jar simple-proxy.jar <local-port>:<time-out> <host1>:<remote-port1> <host2>:<remote-port2> ...
+```
 
 ### Configure as service in windows :
 Using the [NSSM - the Non-Sucking Service Manager](https://nssm.cc/) you can create a windows based service like this :
@@ -28,7 +30,9 @@ nssm set Simple-Proxy AppStdout "%cd%\proxy-console.out"
 Note : This service will create two log files, one will contains the logging event and the second will contains errors.
 
 The file **run-proxy.bat** will be something like this :
-```java -jar simple-proxy.jar <local-port>:<time-out> <host1>:<remote-port1> <host2>:<remote-port2> ...```
+```
+java -jar simple-proxy.jar <local-port>:<time-out> <host1>:<remote-port1> <host2>:<remote-port2> ...
+```
 
 Note : All files must be in the same directory.
 
